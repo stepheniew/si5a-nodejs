@@ -20,8 +20,8 @@ const server = http.createServer((req,res) => {
         data = [];
     }
     res.write(JSON.stringify({
-        'message' : 'message ',
-        'data '   : 'data',
+        'message' : message ,
+        'data '   : data,
         'status'  : 'success' 
     }));
     res.end();
